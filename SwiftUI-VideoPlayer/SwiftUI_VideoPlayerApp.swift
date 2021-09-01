@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_VideoPlayerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VideoFeedView()
         }
     }
 }
