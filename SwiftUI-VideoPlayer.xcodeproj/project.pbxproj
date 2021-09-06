@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D02CC81B26E66F530077E92C /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02CC81A26E66F530077E92C /* VideoPlayerView.swift */; };
 		D05F19AA26DFEDFD00472631 /* shark.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D05F19A626DFEDFC00472631 /* shark.mp4 */; };
 		D05F19AB26DFEDFD00472631 /* bulletTrain.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D05F19A726DFEDFC00472631 /* bulletTrain.mp4 */; };
 		D05F19AC26DFEDFD00472631 /* monkey.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D05F19A826DFEDFD00472631 /* monkey.mp4 */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D02CC81A26E66F530077E92C /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		D05F19A626DFEDFC00472631 /* shark.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shark.mp4; sourceTree = "<group>"; };
 		D05F19A726DFEDFC00472631 /* bulletTrain.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bulletTrain.mp4; sourceTree = "<group>"; };
 		D05F19A826DFEDFD00472631 /* monkey.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey.mp4; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				D0FAF73326DEC787003520F6 /* LoopingPlayerView.swift */,
+				D02CC81A26E66F530077E92C /* VideoPlayerView.swift */,
 			);
 			path = VideoPlayers;
 			sourceTree = "<group>";
@@ -144,8 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				D0FAF71226DEC175003520F6 /* SwiftUI_VideoPlayerApp.swift */,
-				D05F19B726DFEF6600472631 /* Views */,
 				D05F19B626DFEEDA00472631 /* Models */,
+				D05F19B726DFEF6600472631 /* Views */,
 				D0FAF72826DEC641003520F6 /* Resources */,
 				D0FAF71626DEC178003520F6 /* Assets.xcassets */,
 				D0FAF71826DEC178003520F6 /* Preview Content */,
@@ -260,6 +263,7 @@
 				D0FAF73426DEC787003520F6 /* LoopingPlayerView.swift in Sources */,
 				D0FAF71526DEC175003520F6 /* VideoFeedView.swift in Sources */,
 				D0FAF73226DEC71D003520F6 /* VideoClip.swift in Sources */,
+				D02CC81B26E66F530077E92C /* VideoPlayerView.swift in Sources */,
 				D0FAF72126DEC294003520F6 /* Video.swift in Sources */,
 				D0FAF71326DEC175003520F6 /* SwiftUI_VideoPlayerApp.swift in Sources */,
 				D0FAF72726DEC403003520F6 /* ReadJson.swift in Sources */,

@@ -12,7 +12,7 @@ struct ErrorView: View {
 
   var body: some View {
     VStack {
-      Text("What do you think could go wrong? 🤔")
+      Text("Something went wrong")
         .font(.title3)
         .padding()
       Button {
